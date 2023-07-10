@@ -1,0 +1,30 @@
+.btn {
+  display: flex;
+  width: fit-content;
+  padding: 14px 32px;
+  color: #009BC9;
+  border: 2px solid #009BC9;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 22px;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  font-weight: 700;
+  text-align: center;
+  &:hover {
+    background-color: #009BC9;
+    color: #fff;
+  }
+
+  &--green {
+  padding: 16px 34px;
+   border: none;
+    color: #fff;
+    background: transparent linear-gradient(90deg, #4EA66A 0%, #5AB800 100%) 0% 0% no-repeat padding-box;
+    &:hover{
+      background: #5AB800 0% 0% no-repeat padding-box;
+    }
+  }
+}
